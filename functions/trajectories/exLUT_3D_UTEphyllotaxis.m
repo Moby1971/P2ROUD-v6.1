@@ -74,7 +74,7 @@ nrpoints = cnt;
 for i = 1:imax
  
      phi1 = (i-1) * tiny_golden_angles(1);
-     phi2 = (i-i) * tiny_golden_angles(1);
+     phi2 = (i-1) * tiny_golden_angles(1);
 
      for j = 1:nrpoints
  
